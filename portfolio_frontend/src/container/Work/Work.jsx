@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { client, urlFor } from "../../client";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import AppWrap from "../../wrapper/AppWrap";
+import MotionWrap from "../../wrapper/Motion";
 
 const Work = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -23,7 +24,7 @@ const Work = () => {
   }, []);
 
   function handleWorkFilter(item) {
-    setFilterWork(item);
+    setActiveFilter(item);
     setAnimateCard([{ y: 100, opacity: 0 }]);
     setTimeout(() => {
       setAnimateCard([{ y: 0, opacity: 1 }]);
@@ -111,4 +112,8 @@ const Work = () => {
   );
 };
 
-export default AppWrap(Work, "work");
+export default AppWrap(
+  MotionWrap(Work, "app__works"),
+  "work",
+  "app__primarybg"
+);
