@@ -10,9 +10,9 @@ import graphql from "../assets/graphql.png";
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
 import mu5 from "../assets/mu5.png";
-import node from "../assets/node.png";
+import node from "../assets/node_logo.svg";
 import python from "../assets/python.png";
-import react from "../assets/react.png";
+import react from "../assets/react_logo.svg";
 import redux from "../assets/redux.png";
 import sass from "../assets/sass.png";
 import typescript from "../assets/typescript.png";
@@ -34,10 +34,18 @@ import bolt from "../assets/bolt.png";
 import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
+import me from "../assets/me.png";
+import kelvin_logo from "../assets/kelvin_logo.svg";
+import android_jetpack from "../assets/android-jetpack.svg";
+import android_robot from "../assets/android_robot.svg";
 
 export default {
+  android_robot,
+  android_jetpack,
   email,
   mobile,
+  kelvin_logo,
+  me,
   api,
   cpp,
   css,
