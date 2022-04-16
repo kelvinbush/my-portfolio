@@ -10,7 +10,7 @@ import graphql from "../assets/graphql.png";
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
 import mu5 from "../assets/mu5.png";
-import node from "../assets/node_logo.svg";
+import node from "../assets/node.svg";
 import python from "../assets/python.png";
 import react from "../assets/react_logo.svg";
 import redux from "../assets/redux.png";
