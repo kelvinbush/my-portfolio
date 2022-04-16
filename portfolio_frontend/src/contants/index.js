@@ -39,7 +39,7 @@ import kelvin_logo from "../assets/kelvin_logo.svg";
 import android_jetpack from "../assets/android-jetpack.svg";
 import android_robot from "../assets/android_robot.svg";
 
-export default {
+const images = {
   android_robot,
   android_jetpack,
   email,
@@ -78,3 +78,4 @@ export default {
   skype,
   spotify,
 };
+export default images;
