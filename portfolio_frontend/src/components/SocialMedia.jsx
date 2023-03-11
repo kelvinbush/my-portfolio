@@ -6,15 +6,15 @@ import { VscGithub } from "react-icons/vsc";
 const SocialMedia = () => {
   return (
     <div className={"app__social"}>
-      <div>
+      <a href={'https://github.com/kelvinbush'} target={'_blank'}>
         <VscGithub />
-      </div>
-      <div>
+      </a>
+      <a href={'https://www.linkedin.com/in/kelvinbushWachiye'} target={'_blank'}>
         <ImLinkedin />
-      </div>
-      <div>
+      </a>
+      <a href={"#"}>
         <BsTwitter />
-      </div>
+      </a>
     </div>
   );
 };

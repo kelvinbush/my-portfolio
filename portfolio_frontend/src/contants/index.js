@@ -17,6 +17,8 @@ import redux from "../assets/redux.png";
 import sass from "../assets/sass.png";
 import typescript from "../assets/typescript.png";
 import vue from "../assets/vue.png";
+import ruby from '../assets/ruby.png'
+import jetpack from '../assets/jetpack.png'
 
 import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
@@ -40,6 +42,8 @@ import android_jetpack from "../assets/android-jetpack.svg";
 import android_robot from "../assets/android_robot.svg";
 
 const images = {
+  ruby,
+  jetpack,
   android_robot,
   android_jetpack,
   email,
