@@ -1,19 +1,19 @@
 {
-  "short_name": "Kelvin Bush Portfolio",
-  "name": "A portfolio for Kelvin Bush Wachiye",
+  "short_name": "Kelvin Bush Wachiye Portfolio",
+  "name": "A portfolio website for Kelvin Bush Wachiye, Github: @kelvinbush",
   "icons": [
     {
-      "src": "me.png",
+      "src": "avatar.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     },
     {
-      "src": "me.png",
+      "src": "avatar.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "me.png",
+      "src": "avatar.png",
       "type": "image/png",
       "sizes": "512x512"
     }
